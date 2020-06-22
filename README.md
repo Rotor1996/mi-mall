@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Vue UI 项目管理面板启用方式
+```
+vue ui
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
