@@ -3,7 +3,22 @@
     <router-view/>
   </div>
 </template>
+<script>
+// import storage from './storgae'
+export default {
+  name:'app',
+  components:{
+  },
+  data(){
+    return{
 
+    }
+  },
+  mounted(){
+
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
