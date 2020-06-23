@@ -25,5 +25,10 @@ npm run lint
 vue ui
 ```
 
+### 基本插件安装
+
+```
+npm i vue-lazyload element-ui node-sass sass-loader vue-awesome-swiper vue-axios vue-cookie --save-dev
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
