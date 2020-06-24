@@ -4,7 +4,6 @@
   </div>
 </template>
 <script>
-// import storage from './storgae'
 export default {
   name:'app',
   components:{
@@ -15,7 +14,7 @@ export default {
     }
   },
   mounted(){
-
+    
   }
 }
 </script>

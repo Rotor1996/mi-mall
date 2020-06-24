@@ -25,12 +25,16 @@ export default{
     },
     //获取所有值()
     getStorage(){
+        //将sessionStorage转换为JSON格式，并取出，如果没有值则初始化
         return JSON.parse(window.sessionStorage.getItem(STORAGE_KEY) || '{}');
     },
     //清除
     clear(key,module_name){
         let val = this.getStorage();
         if(module_name){
+            if(!val[module_name]){
+                return;
+            }
             delete val[module_name][key];
         }else{
             delete val[key];
