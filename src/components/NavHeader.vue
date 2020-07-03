@@ -157,7 +157,7 @@ export default {
              display:inline-block;
            }
            &:hover::before{
-             margin-left: -60px;
+             margin-left: -55px;
              transition: margin .2s;
            }
          }
